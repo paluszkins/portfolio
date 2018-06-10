@@ -1,0 +1,146 @@
+    /*GENERAL STYLES - START*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #291f1a;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+   
+}
+
+span {
+    color: #1ac056;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+section h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+section {
+    padding: 30px 80px 100px;
+}
+/*ten zapis oznacza góra boki dół*/
+
+/*GENERAL STYLES - STOP*/
+
+/*NAVIGATION - START*/
+#navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 10;
+}
+
+#navigation ul {
+    float: right;    
+}
+
+li.item {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+li.item a {
+    text-decoration: none; 
+    color: #1ac056;
+    font-weight: 300;
+}
+
+li.item a:hover {
+    color: #291f1a;
+    font-size: 1.1em;
+}
+
+
+/*NAVIGATION - STOP*/
+header.background-img {
+    background-image: url("../img/header-background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header.background-img .header-content {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+/*NAVIGATION - STOP*/
+
+/*ABOUT-START*/
+#aboutme {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    text-align: justify;
+    box-shadow: 10px 10px 83px 0px rgba(0,0,0,0.15);
+}
+
+#aboutme > figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#aboutme >figure img {
+    max-height: 350px;
+    border: 15px solid #fff;
+    border-radius: 7px;
+}
+
+#aboutme > article {
+    line-height: 25px;
+}
+
+    /*ABOUT-STOP*/
+
+/*SKILLS - START*/
+#skills > p {
+    text-align: center;
+}
+
+#skills .skills-icons {
+    text-align: center;
+}
+
+
+figcaption {
+    text-transform: uppercase;
+}
+#skills .skills-icons figure {
+    display: inline-block;
+    padding: 15px;
+}
+/*SKILLS - STOP*/
+
+/*PORTFOLIO-START*/
+#portfolio div.portfolio-images {
+    text-align: center;
+}
+
+#portfolio > figure {
+    width: 30%;
+    display: inline-block;
+}
+/*PORTFOLIO-STOP*/
